@@ -12,7 +12,7 @@ export function DefaultButton({
 }: DefaultButtonProps) {
   return (
     <>
-      <button className={styles.button} {...props}>
+      <button className={`${styles.button} ${styles[color]}`} {...props}>
         {icon}
       </button>
     </>
