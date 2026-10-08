@@ -6,7 +6,14 @@ export function Cycles() {
       <span>Ciclos:</span>
 
       <div className={styles.cycleDots}>
-        <span className="cycleDot"></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.shortBreakTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.shortBreakTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.shortBreakTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.longBreakTime}`}></span>
       </div>
     </div>
   );
